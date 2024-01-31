@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .desc{
+        @apply flex flex-col justify-center h-80 pl-4 sm:w-1/2;
+    }
+    .desc p{
+        @apply text-sm text-teal-700;
+    }
+}
+hr{
+    height: 0.5px;
+    padding-top: 1rem;
+    
+}
+main{
+    width: min(120ch, 100% - 2rem);
+    margin-inline: auto;
+}
+.hed{
+    transform: translateY(0.5);
+}
+.section1{
+    
+    background-image: url('../images/worship.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.text{
+    text-shadow: 2px 2px 5px #000;
+}
+.arrowDown {
+    transform: rotate(90deg);
+}
+.transtn{
+    transition: 0.5s;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGC</title>
+    <link rel="stylesheet" href="/public/css/styles.css" />
+</head>
+
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="bg-teal-700 text-white sticky top-0 z-20 flex">
+        <div class="flex text-xl pl-1 py-2">
+            <img class="w-20 rounded-full" src="/public/images/rgc.jpg" alt="Church Logo">
+            <div class="pl-1 flex flex-col font-serif">
+                <h2 class="font-extralight">Redeemed</h2>
+                <h2 class="">Gospel</h2>
+                <h2 class="font-bold">Church</h2>
+            </div>
+        </div>
+        <section class="flex absolute right-12 pt-7 ">
+            <button id="hamburger-button" class="md:hidden cursor-pointer">
+                 <img class="w-16"
+                    src="/public/images/homeB.svg" alt=""> </button>
+            <nav class="hidden md:block space-x-8 text-2xl" aria-label="main">
+                <a href="index.html" class="hover:opacity-90">Home</a>
+                <a href="about.html" class="hover:opacity-90">About</a>
+                <a href="#" class="hover:opacity-90">Worship Online</a>
+                <a href="Events.html" class="hover:opacity-90">Events</a>
+                <a href="#" class="hover:opacity-90">Give</a>
+                <a href="#" class="hover:opacity-90">I'm New</a>
+            </nav>
+        </section>
+        <section id="mobile-menu"
+            class="absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+            <button class="text-8xl self-end px-6">
+                &times;
+            </button>
+            <nav class="flex flex-col min-h-screen items-centre py-8" aria-label="mobile">
+                <a href="index.html" class="w-full text-center py-6 hover:opacity-90">Home</a>
+                <a href="#rockets" class="w-full text-center py-6 hover:opacity-90">Connect</a>
+                <a href="#testimonials" class="w-full text-center py-6 hover:opacity-90">Worship Online</a>
+                <a href="Events.html" class="w-full text-center py-6 hover:opacity-90">Events</a>
+            </nav>
+        </section>
+    </header>
+    <main class="max-w-7xl mx-auto">
+        <section class="">
+            <div class="section1 w-full h-129 relative text">
+                <div class="z-10 absolute top-64 left-10">
+                    <h1 class="text-5xl font-extrabold">
+                        Join In This <br> Sunday
+                    </h1>
+                    <h2 class="font-semibold text-lg pb-4">8am Traditional| 9am Modern | <br> 10am Modern | 11am
+                        Traditional </h2>
+                    <button class="w-32 h-9 rounded-lg bg-white text-black">New Here? &RightArrow;
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col  md:flex-row-reverse  mt-10">
+            <img class="w-3/4 md:w-1/2 mx-auto" src="/public/images/church.jpg" alt="">
+            <div class="pl-4">
+            <h1 class="text-teal-100 py-3 text-2xl">OUR MISSION</h1>
+            <p class="text-4xl font-bold">To make new disciples of Jesus Christ for the transformation of the world.</p>
+            <p class="text-lg">This mission is inspired by Christ’s call to “go and make disciples of all nations, baptizing them in the
+                name of the Father, Son, and Holy Spirit, and teaching them to obey everything I have commanded you.”
+                (Matthew 28:18-20) Jesus is the “Why” behind our mission. To accomplish this mission we have a strategy
+                of helping others to Know Christ (Philippians 3:10) Grow together (Matthew 18:20) and Go serve the world
+                (Acts 1:8). Everything we do as a church is driven by one of these three things.</p>
+            </div>
+
+            </section>
+            <section class="pl-4 space-y-8 py-8">
+            <h1 class="text-teal-100 text-2xl">OUR BELIEFS</h1>
+            <P class="text-4xl font-bold">What we believe serves as a foundation for our faith.</P>
+            <h1 class="font-sans"><button data-value="1" class="btn text-teal-100 text-xl"> &gt; </button> GOD</h1>
+            <div data-value="1" class="btn-text hidden pl-2 animate-open-menu">
+                <hr>
+                <p>We believe in the one true, holy and living God, Eternal Spirit, who is Creator, Sovereign and Preserver of all things visible and invisible. He is infinite in power, wisdom, justice, goodness and love, and rules with gracious regard for the well-being and salvation of men, to the glory of his name. We believe the one God reveals himself as the Trinity: Father, Son and Holy Spirit, distinct but inseparable, eternally one in essence and power.</p>
+            </div>
+            <h1><button data-value="2" class="btn text-teal-100 text-xl"> &gt; </button> JESUS CHRIST</h1>
+            <div data-value="2" class="btn-text hidden pl-2">
+                <p>God is great. since time immemorial He has helped and guided our ways</p>
+            </div>
+            <h1><button data-value="3" class="btn text-teal-100 text-xl"> &gt; </button> HOLY SPIRIT</h1>
+            <div data-value="3" class="btn-text hidden pl-2">
+                <p>God is great. since time immemorial He has helped and guided our ways</p>
+            </div>
+            <h1><button data-value="4" class="btn text-teal-100 text-xl"> &gt; </button>THE BIBLE</h1>
+            <div data-value="4" class="btn-text hidden">
+                <p>God is great. since time immemorial He has helped and guided our ways</p>
+            </div>
+            <h1><button data-value="5" class="btn text-teal-100 text-xl"> &gt; </button> JESUS CHRIST</h1>
+            <div data-value="5" class="btn-text hidden">
+                <p>God is great. since time immemorial He has helped and guided our ways</p>
+            </div>
+            </section>
+    </main>
+    <footer id="footer" class="relative bg-teal-700 text-lg h-full">
+        <section class="max-w-6xl mx-auto px-9 py-16 flex flex-col gap-7 sm:flex-row sm:justify-between">
+            <address class="flex flex-col">
+                <h2 class="font-bold">Contact</h2>
+                <p>Email: <a href="mailto:gmark1586@gmail.com">rgcnchiru@gmail.com</a></p>
+                <p>Phone: <a href="tel:+254712341106">+254712341106</a></p>
+            </address>
+            <address>
+                <h2 class="font-bold">location</h2>
+                <p> Meru, Nchiru market </p>
+                <p> Opposite Meru University</p>
+                <p>SUNDAY WORSHIP AT 8:15AM-2PM</p>
+            </address>
+
+        </section>
+        <nav class="flex space-x-6 justify-center flex-wrap" aria-label="footer">
+            <a href="index.html" class="hover:opacity-90">Home</a>
+            <a href="about.html" class="hover:opacity-90">About</a>
+            <a href="#" class="hover:opacity-90">Worship Online</a>
+            <a href="#" class="hover:opacity-90">Events</a>
+            <a href="#" class="hover:opacity-90">Give</a>
+            <a href="#" class="hover:opacity-90">I'm New</a>
+        </nav>
+        <div class="flex justify-center pt-4">
+            <p>Copyright &copy; <span id="year">2022</span>
+                All rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>

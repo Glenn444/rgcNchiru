@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redeemed Gospel Church</title>
+    <link rel="stylesheet" href="/public/css/styles.css" />
+</head>
+
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="bg-teal-700 text-white sticky top-0 z-10 flex">
+        <div class="flex text-xl pl-4 py-2">
+            <img class="w-20 rounded-full" src="/public/images/rgc.jpg" alt="Church Logo">
+            <div class=" flex flex-col font-serif">
+            <h2 class="font-extralight">Redeemed</h2>
+            <h2 class="">Gospel</h2>
+            <h2 class="font-bold">Church</h2>
+            </div>
+        </div>
+        <section class=" flex  absolute right-12 pt-7 ">
+            <button id="hamburger-button" class="md:hidden cursor-pointer"> <img class="w-16" src="/public/images/homeB.svg" alt=""> </button>
+            <!-- <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
+                &#9776;
+            </button> -->
+            <nav class="hidden md:block space-x-8 text-2xl" aria-label="main">
+                <a href="index.html" class="hover:opacity-90">Home</a>
+                <a href="about.html" class="hover:opacity-90">About</a>
+                <a href="#" class="hover:opacity-90">Worship Online</a>
+                <a href="Events.html" class="hover:opacity-90">Events</a>
+                <a href="#" class="hover:opacity-90">Give</a>
+                <a href="#" class="hover:opacity-90">I'm New</a>
+            </nav>
+        </section>
+        <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+            <button class="text-8xl self-end px-6">
+                &times;
+            </button>
+            <nav class="flex flex-col min-h-screen items-centre py-8" aria-label="mobile">
+                <a href="index.html" class="w-full text-center py-6 hover:opacity-90">Home</a>
+                <a href="about.html" class="w-full text-center py-6 hover:opacity-90">About</a>
+                <a href="#testimonials" class="w-full text-center py-6 hover:opacity-90">Worship Online</a>
+                <a href="Events.html" class="w-full text-center py-6 hover:opacity-90">Events</a>
+            </nav>
+        </section>
+    </header>
+    <main class="max-w-4xl mx-auto">
+        <section id="hero"
+            class="scroll-mt-52 flex flex-col-reverse justify-centre sm:flex-row p-6 items-centre gap-8 mb-12">
+            <article class="sm:w-1/2">
+                <h2
+                    class="max-w-md text-4xl font-bold text-centre sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+                    Welcome to Redeemed Gospel Church <span class="text-indigo-700 dark:text-indigo-300"> Christ is the answer
+                        </span>
+                </h2>
+                <p class="max-w-md text-2xl mt-4 text-centre sm:text-left text-slate-700 dark:text-slate-400">
+                    Thursday Devotion
+                </p>
+                <p class="max-w-md text-2xl mt-4 text-centre sm:text-left text-slate-700 dark:text-slate-400">
+                    Sunday Worship
+                </p>
+            </article>
+            <img class="w-1/2" src="/public/images/rgc.jpg" alt="">
+
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+        <section id="" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Leaders
+            </h2>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li
+                    class="w-2/3 dark:bg-black sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="/public/images/rgc.jpg" alt="" class="w-1/2 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Reverend</h3>
+                    <p class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400">Years</p>
+                    <p class="sm:hidden mt-2  text-2xl text-center text-slate-500 dark:text-slate-400">Her passion</p>
+                </li>
+                <li
+                    class="w-2/3 dark:bg-black sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="/public/images/rgc.jpg" alt="" class="w-1/2 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Youth Leader</h3>
+                    <p class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400">Years</p>
+                    <p class="sm:hidden mt-2  text-2xl text-center text-slate-500 dark:text-slate-400">Ambition</p>
+                </li>
+                <li
+                    class="w-2/3 dark:bg-black sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="/public/images/rgc.jpg" alt="" class="w-1/2 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Lead Worshiper</h3>
+                    <p class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400">Time</p>
+                    <p class="sm:hidden mt-2  text-2xl text-center text-slate-500 dark:text-slate-400">Songs</p>
+                </li>
+
+            </ul>
+            </ul>
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+            Get connected
+        </h2>
+        <section class=" py-9 grid lg:grid-cols-2 overflow-clip">
+            <div class="profile sm:flex">
+                <div class="sm:w-1/2">
+                    <img class="h-80 w-full" src="/public/images/rgc.jpg" alt="" />
+                </div>
+                <div class="desc">
+                    <h3 class="font-bold text-xl">KIDS</h3>
+                    <p>A fun and safe first step for kids to grow in their faith.</p>
+                    <a href="http://">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="profile sm:flex sm:even:flex-row-reverse lg:even:flex-row">
+                <div class="sm:w-1/2">
+                    <img class="h-80 w-full" src="/public/images/rgc.jpg" alt="" />
+                </div>
+                <div class="desc">
+                    <h3 class="font-bold text-xl">YOUTH</h3>
+                    <p>Impacting students in their relationship with Jesus.</p>
+                    <a href="http://">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="profile sm:flex lg:odd:flex-row-reverse">
+                <div class="sm:w-1/2">
+                    <img class="h-80 w-full" src="/public/images/rgc.jpg" alt="" />
+                </div>
+                <div class="desc">
+                    <h3 class="font-bold text-xl">GROUP LIFE</h3>
+                    <p>Adults connecting and growing together. Find your group here.</p>
+                    <a href="http://">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="profile sm:flex sm:even:flex-row-reverse">
+                <div class="sm:w-1/2">
+                    <img class="h-80 w-full" src="/public/images/rgc.jpg" alt="" />
+                </div>
+                <div class=" desc">
+                    <h3 class="font-bold text-xl">OUTREACH</h3>
+                    <p>Serving others, locally and internationally.</p>
+                    <a href="http://">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+        <section id="Testimonials" class="p-6 my-12">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Testimonials
+            </h2>
+            <figure class="my-12">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+                    Glory to God.
+                    </p>  
+                </blockquote>
+                <figcaption class="italic text-xl sm-tetx:2xl text-right mt-2 text-slate-500 dark:text-slate-400">&#8212;Brian</figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+                    Glory to God.
+                    </p>  
+                </blockquote>
+                <figcaption class="italic text-xl sm-tetx:2xl text-right mt-2 text-slate-500 dark:text-slate-400">&#8212;Brian</figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+                    Glory to God.
+                    </p>  
+                </blockquote>
+                <figcaption class="italic text-xl sm-tetx:2xl text-right mt-2 text-slate-500 dark:text-slate-400">&#8212;Brian</figcaption>
+            </figure>
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+        
+        <section id="contact" class="p-6 my-12">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Prayer Request
+            </h2>
+            <form action=""
+            class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" required minlength="3" maxlength="60" placeholder="Your Subject"
+            class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"/>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Prayer Request" required
+            class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
+            <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-900 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+            </form>
+        </section>
+
+    </main>
+    <footer id="footer" class="relative bg-teal-700 text-lg h-full">
+        <section class="max-w-6xl mx-auto px-9 py-16 flex flex-col gap-7 sm:flex-row sm:justify-between">
+            <address class="flex flex-col">
+                <h2 class="font-bold">Contact</h2>
+                <p>Email: <a href="mailto:gmark1586@gmail.com">rgcnchiru@gmail.com</a></p>
+               <p>Phone: <a href="tel:+254712341106">+254712341106</a></p>
+            </address>
+            <address>
+                <h2 class="font-bold">location</h2>
+                <p> Meru, Nchiru market </p>
+                <p> Opposite Meru University</p>
+                <p>SUNDAY WORSHIP AT 8:15AM-2PM</p>
+            </address>
+
+     
+        </section>
+        <nav class="flex space-x-6 justify-center flex-wrap" aria-label="footer">
+            <a href="index.html" class="hover:opacity-90">Home</a>
+            <a href="about.html" class="hover:opacity-90">About</a>
+            <a href="#" class="hover:opacity-90">Worship Online</a>
+            <a href="#" class="hover:opacity-90">Events</a>
+            <a href="#" class="hover:opacity-90">Give</a>
+            <a href="#" class="hover:opacity-90">I'm New</a>
+        </nav>
+        <div class="flex justify-center pt-4">
+            <p class="">Copyright &copy; <span id="year">2022</span>
+            All rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>
