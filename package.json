@@ -1,4 +1,14 @@
 {
+  "name": "rgc",
+  "version": "1.0.0",
+  "description": "Church Website",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind":"npx tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
+    "prettier": "npx prettier --write ./public/*html"
+  },
+  "author": "",
+  "license":"ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
